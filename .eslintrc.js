@@ -1,3 +1,4 @@
+/* eslint-env commonjs */
 module.exports = {
     "env": {
         "browser": true,
