@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@styles/Index.module.css";
+import styles from "@styles/Index.module.scss";
 import Head from "next/head";
 import type { NextPage } from "next";
 

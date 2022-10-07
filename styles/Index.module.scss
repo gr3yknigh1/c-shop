@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+
+  background-color: var(--background);
+  color: var(--foreground);
+
+  > main {
+    height: 100%;
+  }
+}
+
+.header {
+  color: var(--accent);
+}
+
+.footer {
+  margin-top: auto;
+
+  width: 100vw;
+}
