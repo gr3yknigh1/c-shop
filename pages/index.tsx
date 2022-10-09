@@ -12,7 +12,7 @@ const Index: NextPage = () => {
         <meta name="description" content="Awesome cloth shop" />;
       </Head>
       <header>
-        <h1>C Shop</h1>
+        <h1 className={styles.header}>C Shop</h1>
         <nav></nav>
       </header>
       <main>
@@ -21,9 +21,10 @@ const Index: NextPage = () => {
           <PlaceholderImage width={100} height={100} />
         </section>
       </main>
-      <footer>
+      <footer className={styles.footer}>
         <address>
           <a href="mailto:feedback@cshop.com">feedback@cshop.com</a>
+          <br />
           <a href="tel:+88888888888">+8 (888) 888 88 88</a>
         </address>
       </footer>
