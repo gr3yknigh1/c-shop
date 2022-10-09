@@ -2,6 +2,7 @@ import React from "react";
 import styles from "@styles/Index.module.scss";
 import Head from "next/head";
 import type { NextPage } from "next";
+import { PlaceholderImage } from "@/common/placeholders";
 
 const Index: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Index: NextPage = () => {
       <main>
         <section>
           <div>Hi hi there</div>
+          <PlaceholderImage width={100} height={100} />
         </section>
       </main>
       <footer>
