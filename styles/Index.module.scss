@@ -7,13 +7,63 @@
   background-color: var(--background);
   color: var(--foreground);
 
-  > main {
-    height: 100%;
-  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+
+  height: 80px;
+
+  justify-content: space-between;
+
+  padding: 15px;
+}
+
+.content {
+  height: 100%;
+}
+
+.offerSection {
+  display: flex;
+}
+
+.offerTile {
+
+}
+
+.logoContainer {
+  display: flex;
+
+  margin-right: 15px;
+}
+
+.menuBar {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 15px;
+
+  justify-content: right;
+  align-items: center;
+
+}
+
+.menuItem {
+  display: flex;
+
+  margin: 0px 10px 0px 10px;
+  height: 100%;
+
+  text-align: center;
+  align-items: center;
 }
 
 .footer {
   margin-top: auto;
 
   width: 100vw;
+  height: 50px;
+
+  background-color: #8d8d8d;
 }
